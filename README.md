@@ -20,6 +20,10 @@ For a single file, open it on GitHub and select **Download raw file**. To clone 
 4. **Manual relay:** generate a compact code for an open request and paste it into ReadyRoute on another device. This is a person-to-person handoff, with duplicate detection and a checksum for accidental changes. It never syncs or sends automatically.
 5. **Access:** responsive layout, keyboard-focus styles, semantic form labels, larger-text toggle, and a partial Spanish interface.
 
+## Visual design
+
+The interface uses illustrated journey cards and a color-coded path from preparation to response. Headlines, controls, and numeric scores have distinct type styles, with local fallback fonts so the single HTML file still works offline. The six-slide deck and video use the same palette and add vector workflow graphics and segmented score bars.
+
 ## Priority formula
 
 `urgency (10, 20, or 30) + essential need (10 for medical or shelter) + access barriers (6 each, capped at 12) + wait (2 per elapsed hour, capped at 10)`

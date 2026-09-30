@@ -16,8 +16,9 @@ For a single file, open it on GitHub and select **Download raw file**. To clone 
 
 1. **My plan:** save a household contact, meeting place, backup route, and access needs in local browser storage; print the plan or delete it.
 2. **Request help:** enter a location, need category, urgency, and access barriers. The request is added to the local simulation.
-3. **Response view:** see requests sorted by a transparent priority score; review a capacity-aware resource match, assign it manually, reset the scenario, or export JSON.
-4. **Access:** responsive layout, keyboard-focus styles, semantic form labels, larger-text toggle, and a partial Spanish interface.
+3. **Response view:** see requests sorted by a transparent priority score; review suggestions that reserve simulated capacity in queue order and use general teams before scarce specialists; assign manually, reset, or export JSON.
+4. **Manual relay:** generate a compact code for an open request and paste it into ReadyRoute on another device. This is a person-to-person handoff, with duplicate detection and a checksum for accidental changes. It never syncs or sends automatically.
+5. **Access:** responsive layout, keyboard-focus styles, semantic form labels, larger-text toggle, and a partial Spanish interface.
 
 ## Priority formula
 
@@ -25,11 +26,12 @@ For a single file, open it on GitHub and select **Download raw file**. To clone 
 
 The formula is **illustrative and unvalidated**. It does not use race, income, or ZIP code. It never dispatches help; a trained person would make decisions. Its factors are shown beside each request so a coordinator can question the ordering.
 
-The resource matcher requires the same need category and any selected mobility, language, or power support. It also checks remaining simulated capacity. A coordinator must select the suggested assignment; there is no automatic dispatch.
+The resource planner requires the same need category and any selected mobility, language, or power support. It reserves suggestions across the ranked queue so one resource slot is not promised twice, and chooses a general resource ahead of a specialist when both meet the same request. A coordinator must select the assignment; there is no automatic dispatch.
 
 ## Privacy and safety boundaries
 
 - Data is stored in the current browser only. It can be viewed by others who use the same device.
+- The relay code omits free-text details, but contains location and access needs. It is not encrypted or authenticated. Only share it with someone trusted; its checksum detects typos, not tampering.
 - There are no live hazard feeds, official alerts, location services, or emergency dispatch connections.
 - Do not use the prototype for real emergencies. Call local emergency services and follow official instructions.
 - A pilot would need security, consent, encrypted synchronization, real multilingual review, accessibility testing, and emergency-management partners.

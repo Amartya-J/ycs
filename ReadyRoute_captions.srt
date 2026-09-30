@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:05,000
+ReadyRoute: A clear plan before. A clearer picture during.
+
+2
+00:00:05,000 --> 00:00:11,250
+Emergencies create two problems at once. Households need a plan they can find quickly, and
+
+3
+00:00:11,250 --> 00:00:16,750
+responders need requests they can compare. People who face transport, language, or power
+
+4
+00:00:16,750 --> 00:00:23,250
+barriers may be especially hard to reach. ReadyRoute is our working, offline prototype for those gaps.
+
+5
+00:00:23,250 --> 00:00:29,250
+It has three views. First, a household saves an out-of-area contact, meeting place, backup
+
+6
+00:00:29,250 --> 00:00:36,000
+route, and any access needs. Second, someone can make a short report with a location, need
+
+7
+00:00:36,000 --> 00:00:43,250
+type, urgency, and barriers. Third, a coordinator sees an explained queue and can mark a request assigned.
+
+8
+00:00:43,250 --> 00:00:49,250
+Here is the household flow. In My plan, I enter sample details for the Rivera household: Elena
+
+9
+00:00:49,250 --> 00:00:55,750
+as a contact, North library as a meeting point, and an accessible van as a backup. I save it
+
+10
+00:00:55,750 --> 00:01:03,000
+locally and can print a copy. There is no account. The interface also has larger text and a partial Spanish option.
+
+11
+00:01:03,000 --> 00:01:08,250
+Now consider the response view. A fictional request for medical support at Pine Avenue
+
+12
+00:01:08,250 --> 00:01:13,500
+apartments says help is needed right now and power-dependent equipment is involved. The queue
+
+13
+00:01:13,500 --> 00:01:19,250
+shows thirty points for urgency, ten for an essential need, and six for an access barrier.
+
+14
+00:01:19,250 --> 00:01:24,750
+ReadyRoute suggests a medical backup-power team because it matches the need and has capacity. A
+
+15
+00:01:24,750 --> 00:01:30,250
+coordinator chooses whether to assign it, which reduces the available count. A water request at
+
+16
+00:01:30,250 --> 00:01:35,000
+North library remains visible below. The app never dispatches help on its own.
+
+17
+00:01:35,000 --> 00:01:41,250
+The concept could make intake faster, explain prioritization more clearly, and surface access
+
+18
+00:01:41,250 --> 00:01:48,000
+barriers. We have not measured real-world impact. Before any real pilot, ReadyRoute would need
+
+19
+00:01:48,000 --> 00:01:52,500
+official data, secure synchronization, consent, community testing, and emergency-management
+
+20
+00:01:52,500 --> 00:01:58,000
+partners. This demonstration is not an official warning or dispatch system.

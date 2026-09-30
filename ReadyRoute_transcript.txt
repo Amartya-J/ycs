@@ -1,0 +1,11 @@
+ReadyRoute: A clear plan before. A clearer picture during.
+
+Emergencies create two problems at once. Households need a plan they can find quickly, and responders need requests they can compare. People who face transport, language, or power barriers may be especially hard to reach. ReadyRoute is our working, offline prototype for those gaps.
+
+It has three views. First, a household saves an out-of-area contact, meeting place, backup route, and any access needs. Second, someone can make a short report with a location, need type, urgency, and barriers. Third, a coordinator sees an explained queue and can mark a request assigned.
+
+Here is the household flow. In My plan, I enter sample details for the Rivera household: Elena as a contact, North library as a meeting point, and an accessible van as a backup. I save it locally and can print a copy. There is no account. The interface also has larger text and a partial Spanish option.
+
+Now consider the response view. A fictional request for medical support at Pine Avenue apartments says help is needed right now and power-dependent equipment is involved. The queue shows thirty points for urgency, ten for an essential need, and six for an access barrier. ReadyRoute suggests a medical backup-power team because it matches the need and has capacity. A coordinator chooses whether to assign it, which reduces the available count. A water request at North library remains visible below. The app never dispatches help on its own.
+
+The concept could make intake faster, explain prioritization more clearly, and surface access barriers. We have not measured real-world impact. Before any real pilot, ReadyRoute would need official data, secure synchronization, consent, community testing, and emergency-management partners. This demonstration is not an official warning or dispatch system.

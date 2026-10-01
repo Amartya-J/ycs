@@ -6,11 +6,9 @@ ReadyRoute is an **offline educational prototype** for the prompt: “How can we
 
 Open [index.html](index.html) in a modern browser. No build step, account, or server is needed. All examples are fictional. Nothing is transmitted to emergency services.
 
-## Download the complete project
+## Project files
 
-From the [GitHub repository](https://github.com/Amartya-J/ycs), select **Code → Download ZIP**. Unzip it, then open `index.html` to run the prototype. The presentation, captioned video, captions, transcript, and ready-to-share ZIP are at the repository root.
-
-For a single file, open it on GitHub and select **Download raw file**. To clone the project, run `git clone https://github.com/Amartya-J/ycs.git`.
+Open `index.html` in this repository to run the prototype. The presentation, captioned video, captions, transcript, and complete package are at the repository root.
 
 ## What works
 
@@ -54,4 +52,4 @@ The resource planner requires the same need category and any selected mobility, 
 
 ## Competition check
 
-The supplied YCS rules PDF says the video must be shorter than three minutes and the project must have a UI. It also states “no ... use of AI-generated material” under rule 7. The linked [high-school competition page](https://www.youngcoderssphere.org/high-school-competitions) currently displays an agriculture prompt rather than the emergency prompt. Verify the relevant competition round and eligibility before submission.
+The [YCS rules](https://www.youngcoderssphere.org/_files/ugd/915247_a3f592320cc34f9a88c830c931057a17.pdf) require a UI and a video shorter than three minutes, and prohibit AI-generated material. ReadyRoute was produced with AI assistance, so it is a review prototype, not an eligible team-authored submission. The provided form is for “Code for Emergency,” while the [high-school competition page](https://www.youngcoderssphere.org/high-school-competitions) displayed an agriculture prompt when checked. Verify the applicable round with the organizers. See [RUBRIC_REVIEW.md](RUBRIC_REVIEW.md) for a provisional technical assessment.
